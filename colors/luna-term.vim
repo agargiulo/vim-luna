@@ -79,12 +79,12 @@ let g:colors_name = "luna-term"
 " Console vim Highlighting: (see :help highlight-groups)"{{{
 " ---------------------------------------------------------------------
 " First, the Normal 
-hi Normal        ctermfg=254 ctermbg=0 cterm=NONE
+hi Normal        ctermfg=254 ctermbg=237 cterm=NONE
 " ---------------------------------------------------------------------
 " The Languages stuff 
 hi Title         ctermfg=195 ctermbg=NONE cterm=NONE
 " ---------------------------------------------------------------------
-hi Comment       ctermfg=238  ctermbg=NONE cterm=NONE
+hi Comment       ctermfg=242  ctermbg=NONE cterm=NONE
 " ---------------------------------------------------------------------
 hi Constant      ctermfg=227  ctermbg=NONE cterm=NONE
 hi String        ctermfg=74   ctermbg=NONE cterm=NONE
