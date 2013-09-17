@@ -4,7 +4,7 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.3
+" Version: 0.0.5
 "
 "
 " TODO: {{{
@@ -148,6 +148,7 @@ hi CursorLineNr ctermfg=117  ctermbg=NONE cterm=NONE
 hi CursorColumn ctermbg=236  ctermbg=NONE cterm=NONE
 hi ColorColumn  ctermbg=237  ctermbg=NONE cterm=NONE
 hi WildMenu     ctermfg=23   ctermbg=231  cterm=NONE
+hi SignColumn   ctermfg=NONE ctermbg=0    cterm=NONE
 "
 " }}}
 "
@@ -166,7 +167,7 @@ hi pythonClass              ctermfg=37  ctermbg=NONE cterm=NONE
 " ---------------------------------------------------------------------
 "  Ruby Specifics
 hi rubyInterpolation      ctermfg=203 ctermbg=NONE cterm=NONE
-hi rubyMethodBlock        ctermfg=204 ctermbg=NONE cterm=NONE
+hi rubyMethodBlock        ctermfg=216 ctermbg=NONE cterm=NONE
 hi rubyCurlyBlock         ctermfg=204 ctermbg=NONE cterm=NONE
 hi rubyDoBlock            ctermfg=204 ctermbg=NONE cterm=NONE
 hi rubyBlockExpression    ctermfg=204 ctermbg=NONE cterm=NONE
@@ -176,4 +177,24 @@ hi rubyArrayDelimiter     ctermfg=37  ctermbg=NONE cterm=NONE
 "
 " }}}
 "
+" Extras: {{{
+" ---------------------------------------------------------------------
+" These are extra parts for highlighting certain external plugins
+" ---------------------------------------------------------------------
+"
+" Startify (https://github.com/mhinz/vim-startify)
+"
+hi StartifyBracket  ctermfg=98  guibg=NONE gui=NONE
+hi StartifyNumber   ctermfg=179 guibg=NONE gui=NONE
+hi StartifySpecial  ctermfg=23  guibg=NONE gui=NONE
+hi StartifyPath     ctermfg=239 guibg=NONE gui=NONE
+hi StartifySlash    ctermfg=238 guibg=NONE gui=NONE
+hi StartifyFile     ctermfg=204 guibg=NONE gui=NONE
+hi StartifyHeader   ctermfg=216 guibg=NONE gui=NONE
+hi StartifyFooter   ctermfg=167 guibg=NONE gui=NONE
+"
+" ---------------------------------------------------------------------
+" }}}
+"
 " vim:foldmethod=marker:foldlevel=0:textwidth=79
+"
