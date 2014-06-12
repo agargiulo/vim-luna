@@ -146,7 +146,7 @@ hi MatchParen   ctermfg=16   ctermbg=203  cterm=NONE
 hi CursorLine   ctermfg=NONE  ctermbg=238 cterm=underline
 hi CursorLineNr ctermfg=117  ctermbg=NONE cterm=NONE
 hi CursorColumn ctermfg=NONE  ctermbg=240 cterm=NONE
-hi ColorColumn  ctermbg=237  ctermbg=NONE cterm=NONE
+hi ColorColumn  ctermbg=NONE  ctermbg=240 cterm=NONE
 hi WildMenu     ctermfg=23   ctermbg=231  cterm=NONE
 hi SignColumn   ctermfg=NONE ctermbg=0    cterm=NONE
 "
